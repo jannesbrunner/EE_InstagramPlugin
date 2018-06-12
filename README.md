@@ -75,7 +75,7 @@ Example Return: `430`
 You can use the above mentioned single tags combined within this tag pair construct. 
 
 ```
-{exp:instagram_feed:get_user}__
+{exp:instagram_feed:get_user}
 {picture} {username} {fullname} {bio} {website_link} {profile_link}
 {total_posts} {total_follower} {total_follows}
 {/exp:instagram_feed:get_user}
