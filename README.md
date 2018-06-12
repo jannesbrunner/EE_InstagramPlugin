@@ -23,10 +23,11 @@ system/user/addons
 
 __You will need to always include your Instagram Access token on every single or tag pair in use. All provided data is in relation to the user associated with the token.__
 
-Example (Single Tag)
-`{exp:instagram_feed:self_username at="YOUR TOKEN GOES HERE"}`
-Example (Pair Tag)
-```{exp:instagram_feed:get_user at="YOUR TOKEN GOES HERE"}
+Example (Single Tag) <br />
+`{exp:instagram_feed:self_username at="YOUR TOKEN GOES HERE"}` <br />
+Example (Pair Tag) <br />
+```
+{exp:instagram_feed:get_user at="YOUR TOKEN GOES HERE"}
 [..]
 {/exp:instagram_feed:get_user}
 ```
