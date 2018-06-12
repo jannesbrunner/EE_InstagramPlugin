@@ -73,7 +73,9 @@ Example Return: `430`
 
 ### Pair Tags
 You can use the above mentioned single tags combined within this tag pair construct. 
-```{exp:instagram_feed:get_user}__
+
+```
+{exp:instagram_feed:get_user}__
 {picture} {username} {fullname} {bio} {website_link} {profile_link}
 {total_posts} {total_follower} {total_follows}
 {/exp:instagram_feed:get_user}
@@ -82,7 +84,8 @@ You can use the above mentioned single tags combined within this tag pair constr
 Gets the 20 recent Instagram posts, defaulted to 20.
 Set limit parameter for different amount. (e.g. limit="5")
 
-```{exp:instagram_feed:get_recent}
+```
+{exp:instagram_feed:get_recent}
 {picture} The Picture as link
 {comments} Total amount of comments on the post
 {likes} Total amount of likes on the post
@@ -93,6 +96,7 @@ Set limit parameter for different amount. (e.g. limit="5")
 Searches for tags by the given attribute.
 Returns a list found tagnames and their amount of posts on Instagram
 Leave out the leading '#' Set limit parameter for different amount. (e.g. limit="5")
+
 ```
 {exp:instagram_feed:tag_search hashtag="HASHTAG"}
 {name} The name of the fount hashtag
